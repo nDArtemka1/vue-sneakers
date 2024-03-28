@@ -177,12 +177,5 @@ provide('cart', {
 			/>
 		</div>
 
-		<div>
-			<p v-if="loading">Loading...</p>
-			<p v-else-if="error">{{ error }}</p>
-			<ul v-else>
-				<li v-for="(obj, index) in datab" :key="index">{{ JSON.stringify(obj) }}</li>
-			</ul>
-		</div>
 	</div>
 </template>

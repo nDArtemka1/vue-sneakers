@@ -32,7 +32,7 @@ const props = defineProps({
 				<b>{{ price }} руб.</b>
 			</div>
 
-			<NuxtImg
+			<img
 				@click="onClickAdd"
 				:src="!isAdded ? '/plus.svg' : '/checked.svg'"
 				alt="plus"
