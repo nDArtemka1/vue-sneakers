@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: rgb(247 524 231);
+}
+.body-overflow-y {
+	overflow-y: hidden;
+}
